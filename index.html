@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Таблицы и формы</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Расписание поездов
+      </caption>
+      <thead>
+        <tr>
+          <th>Прибытие</th>
+          <th>Номер</th>
+          <th>Направление</th>
+          <th>Платформа</th>
+          <th>Отправление</th>
+          <th>В пути</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>12:24</td>
+          <td>401</td>
+          <td>Киев-Харьков</td>
+          <td>12</td>
+          <td>12:50</td>
+          <td>5 часов</td>
+        </tr>
+
+        <tr>
+          <td>13:20</td>
+          <td>230</td>
+          <td>Киев-Одесса</td>
+          <td>4</td>
+          <td>13:40</td>
+          <td>3 часа</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form>
+      <section role="group">
+        <h2>Персональные данные</h2>
+        <label>
+          <span>Имя</span>
+          <input type="text" placeholder="Ваше имя" autofocus name="login" />
+        </label>
+
+        <label>
+          <span>Пароль</span>
+          <input
+            type="password"
+            placeholder="Пароль не меньше 6 символов"
+            name="password"
+          />
+        </label>
+
+        <label>
+          <span>Отзыв</span>
+          <textarea
+            cols="50"
+            rows="10"
+            placeholder="Ваше сообщение..."
+            name="message"
+          ></textarea>
+        </label>
+      </section>
+
+      <section role="group">
+        <h2>Цвет товара</h2>
+        <label>
+          <input type="checkbox" name="color" value="red" />
+          <span>Красный</span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="color" value="blue" />
+          <span>Синий</span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="color" value="green" />
+          <span>Зеленый</span>
+        </label>
+      </section>
+
+      <section role="group">
+        <h2>Тип подписки</h2>
+        <label>
+          <input type="radio" name="subscription" value="free" />
+          <span>Free</span>
+        </label>
+        <label>
+          <input type="radio" name="subscription" value="pro" />
+          <span>Pro</span>
+        </label>
+        <label>
+          <input type="radio" name="subscription" value="premium" />
+          <span>Premium</span>
+        </label>
+      </section>
+
+      <!-- <p>Тип подписки</p>
+      <select name="subscription">
+        <option value="free">Free</option>
+        <option value="pro">Pro</option>
+        <option value="premium">Premium</option>
+      </select> -->
+
+      <button type="submit">Отправить</button>
+      <button type="reset">Сбросить</button>
+    </form>
+  </body>
+</html>
