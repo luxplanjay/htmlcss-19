@@ -1,0 +1,28 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.page-header {
+  background-color: var(--white-color);
+}
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--black-color);
+}
+
+.feature-list .description {
+  color: var(--text-color);
+}
