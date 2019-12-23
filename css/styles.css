@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.text {
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: teal; */
+  /* border: 5px solid teal; */
+
+  /* padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; */
+
+  /* padding: 20px 40px; */
+  /* padding: 20px; */
+
+  width: 600px;
+  padding: 20px;
+  border: 10px solid black;
+  background-color: palevioletred;
+}
+
+.box-1 {
+  background-color: teal;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.box-2 {
+  margin-top: 80px;
+  width: 300px;
+  height: 200px;
+  background-color: palevioletred;
+}
+
+.block-el {
+  width: 500px;
+  /* height: 600px; */
+  padding: 40px;
+  margin: 50px;
+  background-color: palevioletred;
+}
+
+.inline-el {
+  display: inline-block;
+  width: 600px;
+  /* height: 500px; */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  margin: 50px; */
+  padding: 50px;
+  margin: 50px;
+
+  background-color: teal;
+}
+
+.button .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: palevioletred;
+  margin-right: 20px;
+}
+
+.align-el {
+  width: 500px;
+  background-color: teal;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.controls {
+  width: 600px;
+  padding: 24px;
+  border: 2px solid #212121;
+  text-align: center;
+}
+
+.controls .button-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-color: palevioletred;
+  vertical-align: middle;
+}
+
+.controls .button-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ingredients .item {
+  font-size: 20px;
+  /* background-color: teal; */
+}
+
+/* .ingredients .item:first-child {
+  background-color: orange;
+}
+
+.ingredients .item:last-child {
+  background-color: palevioletred;
+} */
+/* очистка крайней геометрии способ 1 */
+
+/* .ingredients .item {
+  margin-bottom: 20px;
+}
+
+.ingredients .item:last-child {
+  margin-bottom: 0;
+} */
+
+/* очистка крайней геометрии способ 2 */
+
+/* .ingredients .item:not(:last-child) {
+  margin-bottom: 20px;
+} */
+
+/* очистка крайней геометрии способ 3 */
+
+/* .ingredients .item + .item {
+  margin-top: 20px;
+} */
+
+/* nth-child nth-last-child */
+
+/* .ingredients {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.ingredients .item {
+  background-color: teal;
+  flex-basis: calc(33% - 8px);
+  margin-right: 16px;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+.ingredients .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.ingredients .item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+} */
+
+.section {
+  background-color: teal;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.section p {
+  margin-bottom: 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
