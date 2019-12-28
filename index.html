@@ -3,127 +3,121 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML5 basics</title>
+    <title>Photo</title>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="page-header">
-      <nav>
-        <a href="/" class="site-logo">
-          <img src="./images/logo.svg" alt="Site logo" />
-        </a>
+      <div class="container">
+        <nav class="page-nav">
+          <a href="/" class="site-logo">
+            <img src="./images/logo.svg" alt="Site logo" />
+          </a>
 
-        <ul class="site-nav">
-          <li><a href="" class="link">Features</a></li>
-          <li><a href="" class="link">Pricing</a></li>
-          <li><a href="" class="link">Community</a></li>
-          <li><a href="" class="link">Support</a></li>
-        </ul>
+          <ul class="site-nav list">
+            <li><a href="" class="link">Features</a></li>
+            <li><a href="" class="link">Pricing</a></li>
+            <li><a href="" class="link">Community</a></li>
+            <li><a href="" class="link">Support</a></li>
+          </ul>
 
-        <ul class="auth-nav">
-          <li><button type="button" class="button">Log in</button></li>
-          <li><button type="button" class="button">Register</button></li>
-        </ul>
-      </nav>
+          <ul class="auth-nav list">
+            <li>
+              <a href="" class="button primary">Log in</a>
+            </li>
+            <li><a href="" class="button secondary">Register</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
-        <h1 class="title">The largest community of photo enthusiasts</h1>
-        <button type="button" class="button">Join Today</button>
-      </section>
+      <div class="banner">
+        <section class="hero">
+          <h1 class="title">The largest community of photo enthusiasts</h1>
+          <a href="" class="button secondary">Join Today</a>
+        </section>
+      </div>
 
-      <section class="features">
-        <h2 class="features-title">Snap photos and share like never before</h2>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Snap photos and share like never before</h2>
 
-        <ul class="feature-list">
-          <li>
-            <h3 class="title">Lorem ipsum dolor sit amet.</h3>
-            <p class="description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quis
-              nostrum qui odio minus impedit sit similique molestiae eaque
-              reiciendis placeat quidem tempore laudantium corporis maxime totam
-              deleniti quasi cupiditate corrupti atque, nesciunt eveniet harum?
-              Dolorum exercitationem necessitatibus inventore in repellat, quasi
-              minima architecto. Officia necessitatibus nihil iusto pariatur
-              temporibus!
-            </p>
-            <a href="" class="button">Learn more</a>
-          </li>
-          <li>
-            <h3 class="title">Lorem ipsum dolor sit amet.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quis
-              nostrum qui odio minus impedit sit similique molestiae eaque
-              reiciendis placeat quidem tempore laudantium corporis maxime totam
-              deleniti quasi cupiditate corrupti atque, nesciunt eveniet harum?
-              Dolorum exercitationem necessitatibus inventore in repellat, quasi
-              minima architecto. Officia necessitatibus nihil iusto pariatur
-              temporibus!
-            </p>
-            <a href="">Learn more</a>
-          </li>
-          <li>
-            <h3 class="title">Lorem ipsum dolor sit amet.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quis
-              nostrum qui odio minus impedit sit similique molestiae eaque
-              reiciendis placeat quidem tempore laudantium corporis maxime totam
-              deleniti quasi cupiditate corrupti atque, nesciunt eveniet harum?
-              Dolorum exercitationem necessitatibus inventore in repellat, quasi
-              minima architecto. Officia necessitatibus nihil iusto pariatur
-              temporibus!
-            </p>
-            <a href="" class="button">Learn more</a>
-          </li>
-          <li>
-            <h3 class="title">Lorem ipsum dolor sit amet.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quis
-              nostrum qui odio minus impedit sit similique molestiae eaque
-              reiciendis placeat quidem tempore laudantium corporis maxime totam
-              deleniti quasi cupiditate corrupti atque, nesciunt eveniet harum?
-              Dolorum exercitationem necessitatibus inventore in repellat, quasi
-              minima architecto. Officia necessitatibus nihil iusto pariatur
-              temporibus!
-            </p>
-            <a href="" class="button">Learn more</a>
-          </li>
-        </ul>
+          <ul class="feature-list list">
+            <li class="feature-list-item">
+              <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+              <p class="description">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est.
+              </p>
+              <a href="" class="button primary">Learn more</a>
+            </li>
+            <li class="feature-list-item">
+              <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+              <p class="description">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi.
+              </p>
+              <a href="" class="button primary">Learn more</a>
+            </li>
+            <li class="feature-list-item">
+              <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+              <p class="description">
+                Consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+                sit amet, consectetur, adipisci velit, sed quia non numquam.
+              </p>
+              <a href="" class="button primary">Learn more</a>
+            </li>
+            <li class="feature-list-item">
+              <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+              <p class="description">
+                Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                adipisci velit, sed quia non numquam eius modi tempora.
+              </p>
+              <a href="" class="button primary">Learn more</a>
+            </li>
+          </ul>
 
-        <ul>
-          <li>
-            <img src="./images/snap-1.jpg" alt="" />
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              ex, sit repellat natus quis perferendis voluptas adipisci expedita
-              tempore voluptatibus minima molestiae aliquam, quaerat
-              consequuntur eligendi maxime autem nesciunt sed, dolores eaque
-              libero. Velit voluptate accusamus ea numquam, rem quia repellat!
-              Nihil voluptas iste, a aspernatur harum fuga alias fugit!
-            </p>
-          </li>
-          <li>
-            <img src="./images/snap-2.jpg" alt="" />
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              expedita officiis eligendi sequi doloribus atque qui quia ducimus
-              perspiciatis voluptatum, esse quaerat laborum, sit quam
-              consequuntur exercitationem nobis temporibus praesentium maxime
-              nostrum neque at voluptatem accusantium? Fugit quibusdam
-              voluptatibus, itaque, explicabo earum similique possimus minima
-              assumenda ad rerum fugiat illum?
-            </p>
-          </li>
-        </ul>
+          <ul class="snap-list list">
+            <li class="snap-list-item">
+              <img src="./images/snap-1.jpg" alt="" />
+
+              <div class="content">
+                <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+                <p class="text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos qui
+                  ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                  qui dolorem.
+                </p>
+              </div>
+            </li>
+
+            <li class="snap-list-item">
+              <div class="content">
+                <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+                <p class="text">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos qui
+                  ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                  qui dolorem.
+                </p>
+              </div>
+
+              <img src="./images/snap-2.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
