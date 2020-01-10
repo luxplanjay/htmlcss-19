@@ -1,0 +1,12 @@
+.box {
+  height: 600px;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 0, 0, 0.7),
+      rgba(0, 255, 0, 0.7)
+    ),
+    url('../images/mountains.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

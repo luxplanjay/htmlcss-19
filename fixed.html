@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Фиксированное позиционирование</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/fixed.css" />
+  </head>
+  <body>
+    <div class="chat">
+      <button type="button" class="button"></button>
+    </div>
+
+    <button type="button" class="js-open-modal">Open modal</button>
+
+    <div class="backdrop">
+      <div class="modal">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          recusandae doloremque, architecto molestiae illum quidem fuga
+          accusantium dolor consectetur eaque. Dignissimos aut delectus harum
+          aperiam sapiente, molestiae, atque exercitationem nihil necessitatibus
+          tenetur, cupiditate repellat suscipit quibusdam ea accusantium quos.
+          Veniam hic est deserunt ducimus soluta laudantium obcaecati nesciunt
+          voluptatibus reiciendis.
+        </p>
+
+        <button type="button" class="js-close-modal">Close</button>
+      </div>
+    </div>
+
+    <script>
+      document.querySelector('.js-open-modal').addEventListener('click', () => {
+        document.querySelector('.backdrop').classList.add('is-visible');
+      });
+
+      document
+        .querySelector('.js-close-modal')
+        .addEventListener('click', () => {
+          document.querySelector('.backdrop').classList.remove('is-visible');
+        });
+    </script>
+  </body>
+</html>

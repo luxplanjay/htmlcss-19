@@ -1,11 +1,10 @@
 # Todo
 
-- Типы графики: jpg, png, webp, svg
-- [https://squoosh.app/](https://squoosh.app/)
-- Контентные (img) и декоративные (background-img) изображения.
-- Свойства background-image, background-position, background-size,
-  background-repeat, background-attachment
-- Псевдоэлементы ::before и ::after, ::selection
-- CSS-фильтры
-- Градиенты и https://cssgradient.io/
-- CSS-тени. Свойства box-shadow и text-shadow
+- Многослойный фон и фон с градиентом
+- Режимы позиционирования: static, relative, absolute, fixed, sticky
+- Свойства позиционирования: top, left, right, bottom
+- Не забыть рассказать что posabsolute делает блочный
+- Абсолютное позиционирование: карточка с оверлеем и иконками
+- Фиксированное позиционирование: сервис и модалка с бекдропом и кнопкой в
+  модалке закрыть за модалкой
+- Многослойность: z-index
