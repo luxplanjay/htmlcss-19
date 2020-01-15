@@ -1,10 +1,10 @@
 # Todo
 
-- Многослойный фон и фон с градиентом
-- Режимы позиционирования: static, relative, absolute, fixed, sticky
-- Свойства позиционирования: top, left, right, bottom
-- Не забыть рассказать что posabsolute делает блочный
-- Абсолютное позиционирование: карточка с оверлеем и иконками
-- Фиксированное позиционирование: сервис и модалка с бекдропом и кнопкой в
-  модалке закрыть за модалкой
-- Многослойность: z-index
+- 3D трансформации и аппаратное ускорение
+- Перспектива
+- CSS-анимация
+
+## Материалы
+
+- [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/)
+- [CSS Animation for Beginners](https://thoughtbot.com/blog/css-animation-for-beginners)

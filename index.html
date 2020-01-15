@@ -4,16 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Декоративные эффекты</title>
+    <title>3D трансформации и анимация</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <ul>
-      <li><a href="/background.html">Многослойный фон</a></li>
-      <li><a href="/positioning.html">Позиционирование</a></li>
-      <li><a href="/absolute.html">Абсолютное позиционирование</a></li>
-      <li><a href="/fixed.html">Фиксированное позиционирование</a></li>
-      <li><a href="/sticky.html">Липкое позиционирование</a></li>
-      <li><a href="/slider.html">Slider</a></li>
-    </ul>
+    <header class="masthead">
+      <a href="" class="text-logo">Page logo</a>
+
+      <a href="" class="image-logo">
+        <img src="./images/logo.svg" alt="site logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="">Discover</a>
+        <a href="">Pricing</a>
+        <a href="">Contact</a>
+      </nav>
+    </header>
+
+    <div class="section">
+      <div class="scene">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <!-- <script>
+      document.querySelector('.box').addEventListener('click', e => {
+        e.currentTarget.classList.add('animated');
+      });
+    </script> -->
   </body>
 </html>
