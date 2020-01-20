@@ -1,0 +1,29 @@
+body {
+  color: #212121;
+  line-height: 1.5;
+}
+
+/* @media screen and (min-width: 800px) {
+  body {
+    background-color: palevioletred;
+    color: red;
+  }
+}
+
+@media (min-width: 1170px) {
+  body {
+    background-color: orangered;
+  }
+} */
+
+/* @media  (max-width: 800px) {
+  body {
+    background-color: yellow;
+  }
+} */
+
+/* @media screen and (min-width: 800px) and (max-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+} */
