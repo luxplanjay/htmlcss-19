@@ -15,45 +15,106 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
 }
 
-.masthead {
-  background-color: palegoldenrod;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.masthead__nav {
+.box {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  background-image: url('../img/icons/facebook.svg');
+  background-size: cover;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  fill: teal;
+}
+
+/* fill="#485a96" */
+/* fill="#fff" */
+.icon:hover {
+  fill: palevioletred;
+}
+
+/* SOCIAl LINKS */
+.social-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
+.social-links__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social-links__link {
+  display: block;
+}
+
+.social-links__icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  transform: scale(1);
+  transition: transform 200ms linear;
+}
+
+.social-links__link:hover > .social-links__icon {
+  transform: scale(1.15);
+}
+
+/* .social-links__link--github {
+  background-image: url('../img/icons/github.svg');
+} */
+
+/* ACTIONS */
 .button {
   all: unset;
-  display: flex;
-  align-items: center;
-  border: 1px solid #c7c7c7;
-  border-radius: 3px;
-  padding: 12px 32px;
-  font: inherit;
   cursor: pointer;
 }
 
-.button--success {
-  background-color: green;
-}
-
-.button--error {
-  background-color: red;
-}
-
-.button--warning {
-  background-color: orange;
-}
-
-.button--hero {
-  padding: 16px 48px;
-  font-size: 24px;
-  background-color: palevioletred;
-}
-
 .button__icon {
-  margin-right: 8px;
+  display: block;
+  width: 48px;
+  height: 48px;
+  fill: palegoldenrod;
 }
+
+.button__icon:hover {
+  fill: palevioletred;
+}
+
+/* Background */
+.bg-box {
+  width: 300px;
+  height: 300px;
+  /* background-color: teal; */
+  background-image: url('../img/cat_500.jpg');
+  background-size: cover;
+}
+
+/* DPI - dots per inch 1:96 */
+/* DPPX - dots per pixel */
+@media screen and (min-resolution: 2dppx) {
+  .bg-box {
+    /* background-color: palevioletred; */
+    background-image: url('../img/cat_1200.jpg');
+  }
+}
+/* @media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .bg-box {
+    background-color: palevioletred;
+    background-image: url('../img/cat_1200.jpg');
+  }
+} */

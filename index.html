@@ -4,96 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>BEM головного мозга</title>
+    <title>Отзывчивая графика</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header class="masthead">
-      <nav class="masthead__nav">
-        <a href="/" class="logo">
-          <img
-            src="https://image.flaticon.com/icons/svg/2307/2307699.svg"
-            alt="site logo"
-            width="48"
-            class="logo__image"
-          />
-        </a>
+    <!-- <img src="./img/cat_500.jpg" alt="" width="500" /> -->
 
-        <ul class="site-nav">
-          <li class="site-nav__item">
-            <a href="" class="site-nav__link">Portfolio</a>
-          </li>
-          <li class="site-nav__item">
-            <a href="" class="site-nav__link">Contact</a>
-          </li>
-          <li class="site-nav__item">
-            <a href="" class="site-nav__link">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <!-- <img src="./img/icons/star.svg" alt="" width="100" />
 
-    <!--
-      .product-card
-      .product-card__overlay
-      .product-card__image
-      .product-card__meta
-      .product-card__name
-      .product-card__price
-      .product-card__currency
-     -->
-    <!--
-    <div class="product-card">
-      <div class="product-card__overlay">
-        <img
-          src="https://image.flaticon.com/icons/svg/2307/2307699.svg"
-          alt="product"
-          width="240"
-          class="product-card__image"
-        />
-      </div>
-      <div class="product-card__meta">
-        <a href="" class="product-card__name">Lorem ipsum dolor sit amet</a>
-        <p class="product-card__price">
-          Price: 10.99 <span class="peoduct-card__currency">$</span>
-        </p>
-      </div>
-    </div> -->
+    <div class="box"></div> -->
 
-    <button type="button" class="button button--success">
-      <img
-        src="https://image.flaticon.com/icons/svg/1182/1182718.svg"
-        alt=""
-        class="button__icon"
-        width="32"
-      />
+    <!-- <svg class="icon">
+      <use href="./img/icons/facebook.svg#icon"></use>
+    </svg> -->
 
-      <span class="button__text">Subscribe</span>
-    </button>
+    <!-- <div class="bg-box"></div> -->
 
-    <button type="button" class="button button--warning">
-      <span class="button__text">Reload</span>
-    </button>
+    <img
+      srcset="
+        ./img/cat_500.jpg   500w,
+        ./img/cat_800.jpg   800w,
+        ./img/cat_1200.jpg 1200w,
+        ./img/cat_1400.jpg 1400w
+      "
+      src="./img/cat_500.jpg"
+      alt=""
+    />
 
-    <button type="button" class="button button--hero">Get started</button>
+    <!-- 400px 800px 1200px -->
 
-    <section class="section">
-      <h2 class="section__title">Lorem ipsum dolor sit amet.</h2>
+    <!-- 2 -->
+    <!-- 500 / 425 = 1.176 -->
+    <!-- 800 / 425 = 1.95 -->
+    <!-- 1200 / 425 = 2.8 -->
+    <!-- 1400 / 425 = 3+ -->
 
-      <ul class="feed">
-        <li class="feed__item">
-          <div class="post">
-            <h3 class="post__title">Lorem ipsum dolor sit.</h3>
-            <p class="post__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-              explicabo esse non placeat pariatur, libero quisquam? Eveniet qui
-              obcaecati quod molestias, porro voluptatum, veritatis incidunt,
-              iure voluptas natus hic quo?
-            </p>
-            <a href="" class="post__link">Read more</a>
-          </div>
+    <!-- <h1 id="ratio"></h1> -->
+
+    <!-- <section class="section">
+      <h2 class="section__title">Мои контакты</h2>
+
+      <ul class="social-links">
+        <li class="social-links__item">
+          <a href="" class="social-links__link">
+            <svg class="social-links__icon">
+              <use href="./img/icons/icon-sprite.svg#github"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-links__item">
+          <a href="" class="social-links__link">
+            <svg class="social-links__icon">
+              <use href="./img/icons/icon-sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-links__item">
+          <a href="" class="social-links__link">
+            <svg class="social-links__icon">
+              <use href="./img/icons/icon-sprite.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-links__item">
+          <a href="" class="social-links__link">
+            <svg class="social-links__icon">
+              <use href="./img/icons/icon-sprite.svg#twitter"></use>
+            </svg>
+          </a>
         </li>
       </ul>
     </section>
+
+    <section>
+      <button type="button" class="button">
+        <svg class="button__icon">
+          <use href="./img/icons/icon-sprite.svg#edit"></use>
+        </svg>
+      </button>
+      <button type="button" class="button">
+        <svg class="button__icon">
+          <use href="./img/icons/icon-sprite.svg#home"></use>
+        </svg>
+      </button>
+      <button type="button" class="button">
+        <svg class="button__icon">
+          <use href="./img/icons/icon-sprite.svg#star"></use>
+        </svg>
+      </button>
+    </section> -->
+
+    <!-- <script>
+      document.querySelector(
+        '#ratio',
+      ).textContent = `Pixel ratio: ${window.devicePixelRatio}`;
+    </script> -->
   </body>
 </html>
