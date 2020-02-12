@@ -1,8 +1,0 @@
-@font-face {
-  font-family: 'Amagro';
-  src: url('../fonts/amagro-bold-webfont.woff') format('woff'),
-    url('../fonts/amagro-bold-webfont.woff2') format('woff2');
-  font-weight: 700;
-  font-variant: normal;
-  font-display: swap;
-}
