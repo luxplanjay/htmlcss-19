@@ -2,5 +2,18 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
-@import 'base.scss';
+@import './vars.scss';
+
+// UTILS
+@import './utils/visually-hidden.scss';
+
+//  BASE
+@import './normalize.scss';
+@import './base.scss';
+
+// COMPONENTS
+@import './components/container.scss';
+@import './components/button.scss';
+@import './components/page-header.scss';
+@import './components/site-nav.scss';
+@import './components/features-list.scss';

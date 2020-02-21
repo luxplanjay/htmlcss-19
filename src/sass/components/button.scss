@@ -1,0 +1,20 @@
+.button {
+  all: unset;
+  display: inline-block;
+  padding: 11px 42px;
+  margin-right: 6px;
+  margin-left: 6px;
+  border: 1px solid $accent-color;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1.2;
+  font-family: inherit;
+  color: $accent-color;
+  background-color: $color-primary-white;
+  cursor: pointer;
+
+  &--accent {
+    color: $color-primary-white;
+    background-color: $accent-color;
+  }
+}
